@@ -4,6 +4,7 @@
   "description": "Automatically display thank you and a gif on creating a pull request",
   "main": "index.js",
   "scripts": {
+    "build": "ncc build src/action.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
