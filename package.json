@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ngunner15/github-actions-thank-you/issues"
   },
-  "homepage": "https://github.com/ngunner15/github-actions-thank-you#readme"
+  "homepage": "https://github.com/ngunner15/github-actions-thank-you#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
 }
