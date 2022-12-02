@@ -1,0 +1,15 @@
+name: 'Thank You Action'
+description: 'Display "Thank You" to new Pull Request'
+author: 'Nisarg Vadgama'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github Token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor API Token'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
