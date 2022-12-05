@@ -16785,7 +16785,7 @@ async function run() {
 
   const response = await fetch(url);
   const { results } = await response.json();
-  const gifUrl = results[0].media[0].tinygif.url;
+  const gifUrl = results[0].media_formats.tinygif.url;
 
   const octokit = github.getOctokit(GITHUB_TOKEN);
 
