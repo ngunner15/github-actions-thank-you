@@ -12,7 +12,7 @@ async function run() {
   await octokit.rest.issues.createComment({
     ...context.repo,
     issue_number: pull_request.number,
-    body: 'Thank you for submitting a pull request!'
+    body: 'Thank you for submitting a pull request! I will review it as soon as possible.'
   });
 }
 
