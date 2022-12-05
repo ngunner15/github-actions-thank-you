@@ -4,7 +4,7 @@ author: 'Nisarg Vadgama'
 
 inputs:
   GITHUB_TOKEN:
-    description: 'Github Token'
+    description: 'GitHub Token'
     required: true
   TENOR_TOKEN:
     description: 'Tenor API Token'
