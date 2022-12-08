@@ -7,6 +7,7 @@ async function run() {
   const TENOR_TOKEN = core.getInput('TENOR_TOKEN');
 
   const randomPos = Math.round(Math.random() * 1000);
+  // Tenor API
   const url = `https://tenor.googleapis.com/v2/search?q=thank%20you&pos=${randomPos}&limit=1&media_filter=minimal&contentfilter=high&key=${TENOR_TOKEN}`;
 
   const response = await fetch(url);
